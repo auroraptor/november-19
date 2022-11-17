@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   position: relative;
+  background-image: url('../images/noise.png');
 }
 
 .main__container {
