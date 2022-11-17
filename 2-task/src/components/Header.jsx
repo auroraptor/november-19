@@ -4,14 +4,14 @@ import './Header.css'
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="navbar">
         <Link to="/" className="navbar__link">Услуги</Link>
         <Link to="/" className="navbar__link">Виджеты</Link>
         <Link to="/" className="navbar__link">Интеграции</Link>
         <Link to="/" className="navbar__link">Кейсы</Link>
       </div>
-    </div>
+    </header>
   );
 }
 
