@@ -3,7 +3,9 @@ import "./Main.css";
 
 function Main() {
   return (
+    <>
     <main className="main">
+      <div className="main__container">
       <h1 className="main__title">
         Зарабатывайте&#10;больше
         <br />
@@ -31,7 +33,17 @@ function Main() {
           <span className="main_theme_gragient main__list_margin">&mdash;</span>Месяц аmoCRM
         </li>
       </ul>
+      </div>
+      <div className="cover">
+        <div className="cover__circle_color_purple-light"></div>
+        <div className="cover__circle_color_red-light"></div>
+        <div className="cover__circle_color_yellow-light"></div>
+        <div className="cover__circle_color_purple"></div>
+        <div className="cover__circle_color_red"></div>
+      </div>
     </main>
+
+    </>
   );
 }
 
