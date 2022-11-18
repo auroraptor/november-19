@@ -5,7 +5,7 @@ import { TABLET_WIDTH } from "../utils/device-width";
 import './Navbar.css'
 
 function Navbar() {
-  const width = useWindowSize().width;
+  const { width } = useWindowSize();
   return (
       <nav className="navbar">
         <Link to="/" className="navbar__link">Услуги</Link>
