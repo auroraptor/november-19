@@ -1,10 +1,6 @@
-.App {
-  background-color: #0E1014;
-  color: #E4E5EA;
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
+.app {
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 1140px;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -12,3 +8,4 @@
   align-items: center;
   margin: 0 auto;
 }
+

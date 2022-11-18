@@ -13,7 +13,7 @@ function Footer() {
         <Menu />
         <Contact />
       </div>
-      <Copyright />
+      <Copyright/>
     </footer>
   );
 }

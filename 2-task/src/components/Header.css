@@ -4,4 +4,12 @@
   justify-content: space-between;
   align-items: center;
   min-height: 55px;
+  width: 100%
+}
+
+@media (min-width: 980px) {
+  .header {
+    min-height: 73px;
+    margin-top: 46px;
+  }
 }
