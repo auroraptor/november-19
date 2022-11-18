@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-style: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #656566;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer__copyrigth {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
