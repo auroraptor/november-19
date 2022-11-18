@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   gap: 16px;
+  margin: 0 auto;
 }
 
 .navbar__link {
