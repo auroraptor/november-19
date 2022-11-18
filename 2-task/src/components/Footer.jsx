@@ -2,6 +2,7 @@ import React from "react";
 import AboutUs from "./AboutUs";
 import Menu from "./Menu";
 import Contact from "./Contact";
+import Copyright from "./Copyright";
 import './Footer.css';
 
 function Footer() {
@@ -12,10 +13,7 @@ function Footer() {
         <Menu />
         <Contact />
       </div>
-      <div className='footer__copyrigth'>
-        <p>&copy;WELBEX 2022. Все права защищены.</p>
-        <p>Политика конфиденциальности</p>
-      </div>
+      <Copyright />
     </footer>
   );
 }

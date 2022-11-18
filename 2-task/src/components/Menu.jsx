@@ -6,36 +6,36 @@ function Menu() {
   return (
     <>
       <p className="footer__title">Меню</p>
-      <ul className="footer__container">
-        <li className="footer__link">
-          <Link to="/">Расчёт стоимости</Link>
+      <ul className="footer__container footer__container_type_menu">
+        <li>
+          <Link to="/" className="footer__link">Расчёт стоимости</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Услуги</Link>
+        <li>
+          <Link to="/" className="footer__link">Услуги</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Виджеты</Link>
+        <li>
+          <Link to="/" className="footer__link">Виджеты</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Интеграции</Link>
+        <li>
+          <Link to="/" className="footer__link">Интеграции</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Наши клиенты</Link>
+        <li>
+          <Link to="/" className="footer__link">Наши клиенты</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Благодарность клиентов</Link>
+        <li>
+          <Link to="/" className="footer__link">Благодарность клиентов</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Кейсы</Link>
+        <li>
+          <Link to="/" className="footer__link">Кейсы</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Сертификаты</Link>
+        <li>
+          <Link to="/" className="footer__link">Сертификаты</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Блог на Youtube</Link>
+        <li>
+          <Link to="/" className="footer__link">Блог на Youtube</Link>
         </li>
-        <li className="footer__link">
-          <Link to="/">Вопрос / Ответ</Link>
+        <li>
+          <Link to="/" className="footer__link">Вопрос / Ответ</Link>
         </li>
       </ul>
     </>
