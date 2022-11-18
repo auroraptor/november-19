@@ -1,9 +1,11 @@
 .main {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   position: relative;
-  background-image: url('../images/noise.png');
+  background-image: url("../images/noise.png");
 }
 
 .main__container {
@@ -18,10 +20,10 @@
   margin: 40px 0 0 0;
 }
 
-.main__tytle_bold {
+.main__title_bold {
   font-weight: 900;
-font-size: 36px;
-line-height: 44px;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .main__description {
@@ -54,12 +56,16 @@ line-height: 44px;
   padding: 0;
 }
 
-.main__list_margin {
+.main__list_description {
+  display: none;
+}
+
+.main__list_visible {
   margin-right: 5px;
 }
 
 .main_theme_gragient {
-  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -72,8 +78,14 @@ line-height: 44px;
   width: 100%;
   height: 425px;
   padding: 0;
-  background: radial-gradient(rgba(255, 246, 233, 0.1), rgba(26, 29, 35, 0.1), rgba(26, 29, 35, 0.1), rgba(26, 29, 35, 0.01), rgba(26, 29, 35, 0));
-  background-image: url('../images/noise.png');
+  background: radial-gradient(
+    rgba(255, 246, 233, 0.1),
+    rgba(26, 29, 35, 0.1),
+    rgba(26, 29, 35, 0.1),
+    rgba(26, 29, 35, 0.01),
+    rgba(26, 29, 35, 0)
+  );
+  background-image: url("../images/noise.png");
   filter: blur(15px);
 }
 
@@ -84,7 +96,7 @@ line-height: 44px;
   width: 259px;
   height: 259px;
   border-radius: 50%;
-  background-color: #833AB4;
+  background-color: #833ab4;
   opacity: 50%;
   filter: blur(392px);
 }
@@ -96,7 +108,12 @@ line-height: 44px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    );
   filter: blur(10px);
 }
 
@@ -107,7 +124,7 @@ line-height: 44px;
   width: 211px;
   height: 210px;
   border-radius: 50%;
-  background-color: #961A1A;
+  background-color: #961a1a;
   opacity: 50%;
   filter: blur(392px);
 }
@@ -119,7 +136,13 @@ line-height: 44px;
   width: 43px;
   height: 43px;
   border-radius: 50%;
-  background: radial-gradient(rgba(255, 208, 208, 0.536), rgba(212, 93, 93, 0.264), rgba(167, 49, 49, 0.248), rgba(130, 25, 25, 0.248)) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(
+      rgba(255, 208, 208, 0.536),
+      rgba(212, 93, 93, 0.264),
+      rgba(167, 49, 49, 0.248),
+      rgba(130, 25, 25, 0.248)
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
 .cover__circle_color_yellow-light {
@@ -129,7 +152,75 @@ line-height: 44px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #FCB045;
+  background-color: #fcb045;
   opacity: 40%;
   /* filter: blur(392px); */
+}
+
+@media (min-width: 500px) {
+  .main {
+    justify-content: space-between;
+  }
+
+  .main__container:last-child {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1440px) {
+  .main {
+    margin-top: 94px;
+  }
+
+  .main__container {
+    margin-left: 0;
+  }
+
+  .main__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+  }
+
+  .main__description {
+    margin-top: 30px;
+  }
+
+  .main__subtitle {
+    margin: 15px 0 0 0;
+    text-align: end;
+  }
+
+  .main__subtitle_size_xl {
+    text-transform: uppercase;
+  }
+
+  .main__list {
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 5%;
+    text-align: end;
+    row-gap: 30px;
+    column-gap: 31px;
+  }
+
+  .main__list_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+  }
+
+  .main__list_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    text-transform: none;
+    margin-top: 6px;
+  }
+
+  .main__list_visible {
+    display: none;
+  }
 }
