@@ -4,7 +4,10 @@ import "./Logo.css";
 
 function Logo() {
   return (
-    <Link to="/" className="logo"></Link>
+    <div className="logo">
+    <Link to="/" className="logo__link"></Link>
+    <p className="logo__description">крупный интегратор CRM<br />в Росcии и ещё 8странах</p>
+    </div>
   );
 }
 

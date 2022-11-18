@@ -1,7 +1,7 @@
 import React from "react";
 import AboutUs from "./AboutUs";
 import Menu from "./Menu";
-import Contact from "./Contact";
+import FooterContact from "./FooterContact";
 import Copyright from "./Copyright";
 import './Footer.css';
 
@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer__navbar">
         <AboutUs />
         <Menu />
-        <Contact />
+        <FooterContact />
       </div>
       <Copyright/>
     </footer>

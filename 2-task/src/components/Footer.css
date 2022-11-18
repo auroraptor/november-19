@@ -63,7 +63,7 @@
   height: 22px;
 }
 
-.icon_type_telegram {
+.footer__icon_type_telegram {
   background-image: url("../images/icon_type_telegram.svg");
   background-repeat: no-repeat;
   width: 20.02px;
@@ -71,7 +71,7 @@
   margin-right: 13.98px;
 }
 
-.icon_type_viber {
+.footer__icon_type_viber {
   background-image: url("../images/icon_type_viber.svg");
   background-repeat: no-repeat;
   width: 20px;
@@ -79,7 +79,7 @@
   margin-right: 14.4px;
 }
 
-.icon_type_whatsapp {
+.footer__icon_type_whatsapp {
   background-image: url("../images/icon_type_whatsapp.svg");
   background-repeat: no-repeat;
   width: 19.2px;
@@ -149,5 +149,14 @@
 
   .footer__contact {
     align-items: end;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1140px) {
+  .footer__copyrigth  {
+    margin-right: 16px;
+  }
+  .footer__col:last-child {
+    margin-right: 16px;
   }
 }

@@ -1,5 +1,24 @@
 .logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__link {
   background-image: url('../images/logo_welbex.svg');
   width: 140px;
   height: 24px;
+}
+
+.logo__description {
+  font-family: 'Montserrat', sans-serif;
+  font-style: light;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 10px 0 0 0;
+}
+
+@media (min-width: 500px) and (max-width: 1140px) {
+  .logo {
+    margin-left: 16px;
+  }
 }

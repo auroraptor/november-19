@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
-function Contact() {
+function FooterContact() {
   return (
     <div className="footer__col">
       <p className="footer__title">Контакты</p>
@@ -12,9 +12,9 @@ function Contact() {
         </li>
         <li>
           <nav className="footer__navbar_social">
-            <Link to="/" className="footer__link icon_type_telegram" />
-            <Link to="/" className="footer__link icon_type_viber" />
-            <Link to="/" className="footer__link icon_type_whatsapp" />
+            <Link to="/" className="footer__link footer__icon_type_telegram" />
+            <Link to="/" className="footer__link footer__icon_type_viber" />
+            <Link to="/" className="footer__link footer__icon_type_whatsapp" />
           </nav>
         </li>
         <li>
@@ -25,4 +25,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default FooterContact;

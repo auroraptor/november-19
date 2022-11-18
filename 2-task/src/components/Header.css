@@ -8,9 +8,23 @@
   margin: 0 auto;
 }
 
+@media (min-width: 500px) {
+  .header {
+    align-items: start;
+    margin-top: 22px;
+  }
+}
+
 @media (min-width: 980px) {
   .header {
     min-height: 73px;
     margin-top: 46px;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .header {
+    gap: 52.96px;
   }
 }
