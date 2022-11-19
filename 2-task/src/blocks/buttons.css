@@ -82,8 +82,12 @@ button:hover {
   height: 61px;
 }
 
-@media (min-width: 990px) and (max-width: 1439px){
-  .button_whatsapp_header  {
+@media (max-width: 1140px){
+  .button_whatsapp_desktop  {
+    margin-right: 16px;
+  }
+
+  .button_place_main  {
     margin-right: 16px;
   }
 }
