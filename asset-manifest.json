@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/auroraptor/november-19/static/css/main.e8b6ec0e.css",
+    "main.js": "/auroraptor/november-19/static/js/main.de3d28f9.js",
+    "static/media/inter-500.woff": "/auroraptor/november-19/static/media/inter-500.9053572c46aeb4b16caa.woff",
+    "static/media/inter-900.woff": "/auroraptor/november-19/static/media/inter-900.c6938660eec019fefd68.woff",
+    "static/media/inter-400.woff": "/auroraptor/november-19/static/media/inter-400.8c206db99195777c6769.woff",
+    "static/media/montserrat-regular.woff": "/auroraptor/november-19/static/media/montserrat-regular.258f71417331484a06e3.woff",
+    "static/media/inter-500.woff2": "/auroraptor/november-19/static/media/inter-500.293fd13dbca5a3e450ef.woff2",
+    "static/media/inter-900.woff2": "/auroraptor/november-19/static/media/inter-900.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/inter-400.woff2": "/auroraptor/november-19/static/media/inter-400.c8ba52b05a9ef10f4758.woff2",
+    "static/media/noise.png": "/auroraptor/november-19/static/media/noise.88925f6507e92550c84d.png",
+    "static/media/logo_welbex.svg": "/auroraptor/november-19/static/media/logo_welbex.2e08d1bd108cb8b2aee1.svg",
+    "static/media/icon_type_whatsapp.svg": "/auroraptor/november-19/static/media/icon_type_whatsapp.42088da2e5cdc5ef6859.svg",
+    "static/media/icon_type_viber.svg": "/auroraptor/november-19/static/media/icon_type_viber.197e093d2628608efd0d.svg",
+    "index.html": "/auroraptor/november-19/index.html",
+    "static/media/icon_type_telegram.svg": "/auroraptor/november-19/static/media/icon_type_telegram.b2afac6e3c94eec4775e.svg",
+    "main.e8b6ec0e.css.map": "/auroraptor/november-19/static/css/main.e8b6ec0e.css.map",
+    "main.de3d28f9.js.map": "/auroraptor/november-19/static/js/main.de3d28f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b6ec0e.css",
+    "static/js/main.de3d28f9.js"
+  ]
+}
