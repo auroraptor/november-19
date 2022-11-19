@@ -11,6 +11,8 @@
 .main__container {
   margin-left: 14px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .main__title {
@@ -173,6 +175,7 @@
 @media (min-width: 1140px) {
   .main {
     margin-top: 94px;
+    margin-bottom: 83px;
   }
 
   .main__container {

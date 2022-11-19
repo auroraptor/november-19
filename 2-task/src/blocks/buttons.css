@@ -4,7 +4,7 @@ button {
 
 button:hover {
   opacity: .9;
-  transform: scale(1.1);
+  transform: scale(1.02);
   transition: all .2s ease-in-out;
 }
 
@@ -63,6 +63,23 @@ button:hover {
 .button_whatsapp_mobile {
   width: 19.2px;
   height: 19.2px;
+}
+
+.button_place_main {
+  background-color: #4077F3;
+  border: none;
+  color:#E4E5EA;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 82px;
+  align-self: end;
+}
+
+.button_size_xl {
+  width: 262px;
+  height: 61px;
 }
 
 @media (min-width: 990px) and (max-width: 1439px){
