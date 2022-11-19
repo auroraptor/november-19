@@ -36,6 +36,10 @@
   height: 22px;
 }
 
+.contact_header {
+  display: none;
+}
+
 .contact_footer {
   flex-direction: column;
   margin-left: 15px;
@@ -44,6 +48,10 @@
 @media (min-width: 980px) {
   .contact {
     align-items: end;
+  }
+
+  .contact_header {
+    display: flex;
   }
 }
 

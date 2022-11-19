@@ -1,7 +1,6 @@
 import React from "react";
 import MainList from "./MainList";
-import "../blocks/Main.css";
-import { MOBILE_MAX_WIDTH } from "../utils/device-width";
+import "./Main.css";
 
 function Main(props) {
   const { windowWidth, handleClick } = props;
@@ -35,16 +34,14 @@ function Main(props) {
             мы дарим:
           </h2>
           <MainList windowWidth={windowWidth} />
-          {windowWidth > MOBILE_MAX_WIDTH && (
-            <button
-              type="button"
-              className="button_place_main button_size_xl"
-              onClick={handleClick}
-              aria-label="Получить консультацию"
-            >
-              Получить консультацию
-            </button>
-          )}
+          <button
+            type="button"
+            className="button_place_main button_size_xl"
+            onClick={handleClick}
+            aria-label="Получить консультацию"
+          >
+            Получить консультацию
+          </button>
         </div>
         <div className="cover">
           <div className="cover__circle_color_purple-light"></div>
@@ -53,7 +50,6 @@ function Main(props) {
           <div className="cover__circle_color_purple-ball"></div>
           <div className="cover__circle_color_red"></div>
         </div>
-        <div className="cover_desktop">{/* TODO */}</div>
       </main>
     </>
   );

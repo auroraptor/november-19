@@ -1,7 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/inter.css);
 @import url(./vendor/fonts/monserrat.css);
-@import url(./blocks/page.css);
-@import url(./blocks/buttons.css);
-@import url(./blocks/contact.css);
+@import url(./components/page.css);
+@import url(./components/contact.css);
+@import url(./components/buttons.css);
 

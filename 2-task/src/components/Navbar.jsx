@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { TABLET_WIDTH } from "../utils/device-width";
-import "../blocks/Navbar.css";
+import "./Navbar.css";
 
-function Navbar(props) {
-  const { windowWidth } = props;
+function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar__link">
@@ -19,11 +17,9 @@ function Navbar(props) {
       <Link to="/" className="navbar__link">
         Кейсы
       </Link>
-      {windowWidth > TABLET_WIDTH && (
-        <Link to="/" className="navbar__link">
+        <Link to="/" className="navbar__link navbar__link_tablet">
           Сертификаты
         </Link>
-      )}
     </nav>
   );
 }

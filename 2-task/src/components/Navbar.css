@@ -13,6 +13,10 @@
   color: #E4E5EA;
 }
 
+.navbar__link_tablet {
+  display: none;
+}
+
 @media (min-width: 500px) {
   .navbar__link {
     margin: 0;
@@ -24,8 +28,16 @@
   }
 }
 
+@media (min-width: 710px) {
+  .navbar__link_tablet {
+    display: block;
+  }
+}
+
 @media (min-width: 1440px) {
   .navbar {
-    margin: 0 137px 0 0;
+    margin: 0;
+    margin-left: 192px;
+    gap: 30px;
   }
 }

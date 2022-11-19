@@ -29,6 +29,7 @@
 }
 
 .main__description {
+  font-family: 'Monserrat';
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -172,18 +173,27 @@
     align-items: flex-end;
   }
 
+  .main__title_bold {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
   .cover {
     display: none;
   }
 
   .cover_desktop {
     display: flex;
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
   }
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1141px) {
   .main {
-    margin-top: 94px;
+    margin-top: 78px;
     margin-bottom: 83px;
   }
 
@@ -192,7 +202,7 @@
   }
 
   .main__title {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 48px;
     line-height: 58px;
     margin: 0;
@@ -244,6 +254,7 @@
   }
 
   .main__list_description {
+    font-family: 'Monserrat';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -254,5 +265,13 @@
 
   .main__list_visible {
     display: none;
+  }
+
+  .cover__circle_color_purple-ball {
+    position: absolute;
+    left: 618px;
+    top: -2px;
+    width: 60px;
+    height: 60px;
   }
 }

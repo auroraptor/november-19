@@ -6,6 +6,8 @@
   min-height: 55px;
   width: 100%;
   margin: 0 auto;
+  z-index: 2;
+
 }
 
 @media (min-width: 500px) {
@@ -25,6 +27,7 @@
 
 @media (min-width: 1140px) {
   .header {
+    margin-top: 58px;
     gap: 52.96px;
   }
 }

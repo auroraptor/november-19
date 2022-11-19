@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonSocial from "./ButtonSocial";
 import "../index.css";
-import "../blocks/HeaderContact.css";
+import "./HeaderContact.css";
 
 function HeaderContact({ handleClick }) {
   return (

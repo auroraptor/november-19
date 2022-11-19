@@ -1,5 +1,5 @@
 import React from "react";
-import "../blocks/buttons.css";
+import "./buttons.css";
 
 function ButtonSocial(props) {
   const { handleClick, device, socialMedia } = props;

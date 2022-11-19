@@ -2,7 +2,7 @@ import React from "react";
 import ButtonSocial from "./ButtonSocial";
 import "../index.css";
 import { MOBILE_MAX_WIDTH } from "../utils/device-width";
-import "../blocks/Footer.css";
+import "./Footer.css";
 
 function FooterContact(props) {
   const { windowWidth, handleClick } = props;
