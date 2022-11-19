@@ -5,6 +5,20 @@
   height: 100vh;
 }
 
+@media (min-width: 500px) {
+  .cover__desktop_red-ligth {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+
+    background: #961a1a;
+    opacity: 0.5;
+    filter: blur(196px);
+  }
+}
+
 @media (min-width: 980px) {
   .cover__desktop_red-ball {
     position: absolute;
@@ -65,17 +79,6 @@
     backdrop-filter: blur(2px);
   }
 
-  .cover__desktop_red-ligth {
-    position: absolute;
-    width: 311px;
-    height: 311px;
-    left: -102px;
-    top: 251px;
-
-    background: #961a1a;
-    opacity: 0.5;
-    filter: blur(196px);
-  }
   .cover__desktop_purple-ligth {
     position: absolute;
     width: 259px;

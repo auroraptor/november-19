@@ -74,94 +74,99 @@
   background-clip: text;
 }
 
-.cover {
+.cover_mobile {
   position: absolute;
   overflow: hidden;
   z-index: 1;
   width: 100%;
   height: 425px;
   padding: 0;
-  background: radial-gradient(
-    rgba(255, 246, 233, 0.1),
-    rgba(26, 29, 35, 0.1),
-    rgba(26, 29, 35, 0.1),
-    rgba(26, 29, 35, 0.01),
-    rgba(26, 29, 35, 0)
-  );
   background-image: url("../images/noise.png");
-  filter: blur(15px);
 }
 
 .cover_desktop {
   display: none;
 }
 
-.cover__circle_color_purple-light {
+.cover_mobile_purple-light {
+  border-radius: 50%;
   position: absolute;
-  left: 258px;
-  top: 107px;
   width: 259px;
   height: 259px;
-  border-radius: 50%;
-  background-color: #833ab4;
-  opacity: 50%;
-  filter: blur(392px);
+  left: 258px;
+  top: 107px;
+
+  background: #833AB4;
+  opacity: 0.5;
+  filter: blur(196px);
 }
 
-.cover__circle_color_purple-ball {
+.cover_mobile_purple-ball {
+  border-radius: 50%;
+
   position: absolute;
-  left: 296px;
-  top: 236px;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(
-      rgba(236, 208, 255, 0.64) 0%,
-      rgba(161, 93, 207, 0.24) 59.67%,
-      rgba(118, 49, 164, 0.208) 78.59%,
-      rgba(86, 24, 128, 0.232) 100%
-    );
-  filter: blur(10px);
+  left: 296px;
+  top: 236px;
+
+  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+  filter: blur(5px);
+  backdrop-filter: blur(2px);
 }
 
-.cover__circle_color_red-light {
+.cover_mobile_red-light {
+  border-radius: 50%;
+
   position: absolute;
-  left: -55px;
-  top: 241px;
   width: 211px;
   height: 210px;
-  border-radius: 50%;
-  background-color: #961a1a;
-  opacity: 50%;
-  filter: blur(392px);
+  left: -55px;
+  top: 241px;
+
+  background: #961A1A;
+  opacity: 0.5;
+  filter: blur(196px);
 }
 
-.cover__circle_color_red {
+.cover_mobile_red-ball {
+  border-radius: 50%;
+
   position: absolute;
-  left: 29px;
-  top: 402px;
   width: 43px;
   height: 43px;
-  border-radius: 50%;
-  background: radial-gradient(
-      rgba(255, 208, 208, 0.536),
-      rgba(212, 93, 93, 0.264),
-      rgba(167, 49, 49, 0.248),
-      rgba(130, 25, 25, 0.248)
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  left: 29px;
+  top: 402px;
+
+  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  backdrop-filter: blur(2px);
 }
 
-.cover__circle_color_yellow-light {
+.cover_glass {
   position: absolute;
-  left: -66px;
-  top: 519px;
+  width: 320px;
+  height: 445px;
+  left: 0px;
+  top: 0px;
+
+  background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  backdrop-filter: blur(7.5px);
+}
+
+.cover_mobile_yellow-light {
+  border-radius: 50%;
+
+  position: absolute;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  background-color: #fcb045;
-  opacity: 40%;
-  /* filter: blur(392px); */
+  left: -66px;
+  top: 519px;
+
+  background: #FCB045;
+  opacity: 0.4;
+  filter: blur(196px);
 }
 
 @media (min-width: 500px) {
@@ -179,16 +184,10 @@
     line-height: 58px;
   }
 
-  .cover {
+  .cover_mobile {
     display: none;
   }
 
-  .cover_desktop {
-    display: flex;
-    position: absolute;
-    width: 100vh;
-    height: 100vh;
-  }
 }
 
 @media (min-width: 1141px) {
