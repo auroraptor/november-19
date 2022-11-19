@@ -16,10 +16,8 @@ function App() {
         path="/"
         element={
           <div className="app">
-          <Cover />
-            <Header
-              handleClick={handleClick}
-            ></Header>
+            <Cover />
+            <Header handleClick={handleClick}></Header>
             <Main handleClick={handleClick} windowWidth={windowWidth}></Main>
             <Footer
               handleClick={handleClick}

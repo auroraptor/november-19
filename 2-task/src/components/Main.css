@@ -29,7 +29,7 @@
 }
 
 .main__description {
-  font-family: 'Monserrat';
+  font-family: "Monserrat";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -96,7 +96,7 @@
   left: 258px;
   top: 107px;
 
-  background: #833AB4;
+  background: #833ab4;
   opacity: 0.5;
   filter: blur(196px);
 }
@@ -110,7 +110,14 @@
   left: 296px;
   top: 236px;
 
-  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
   filter: blur(5px);
   backdrop-filter: blur(2px);
@@ -125,7 +132,7 @@
   left: -55px;
   top: 241px;
 
-  background: #961A1A;
+  background: #961a1a;
   opacity: 0.5;
   filter: blur(196px);
 }
@@ -139,7 +146,14 @@
   left: 29px;
   top: 402px;
 
-  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.536) 0%,
+      rgba(212, 93, 93, 0.264) 59.67%,
+      rgba(167, 49, 49, 0.248) 78.59%,
+      rgba(130, 25, 25, 0.248) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
   backdrop-filter: blur(2px);
 }
@@ -151,7 +165,14 @@
   left: 0px;
   top: 0px;
 
-  background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(
+      238.53% 189.02% at 3.2% 3.49%,
+      rgba(255, 246, 233, 0.1) 0%,
+      rgba(26, 29, 35, 0.1) 26.62%,
+      rgba(26, 29, 35, 0.1) 52.1%,
+      rgba(26, 29, 35, 0.01) 70.17%,
+      rgba(26, 29, 35, 0) 100%
+    );
   backdrop-filter: blur(7.5px);
 }
 
@@ -164,16 +185,16 @@
   left: -66px;
   top: 519px;
 
-  background: #FCB045;
+  background: #fcb045;
   opacity: 0.4;
   filter: blur(196px);
 }
 
 .main__list_container {
-  font-family: 'Monserrat';
+  font-family: "Monserrat";
   font-weight: 400;
-font-size: 13px;
-line-height: 16px;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 @media (max-width: 500px) {
@@ -216,7 +237,6 @@ line-height: 16px;
   .cover_mobile {
     display: none;
   }
-
 }
 
 @media (min-width: 1141px) {
@@ -282,7 +302,7 @@ line-height: 16px;
   }
 
   .main__list_description {
-    font-family: 'Monserrat';
+    font-family: "Monserrat";
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;

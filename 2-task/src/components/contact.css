@@ -9,7 +9,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #E4E5EA;
+  color: #e4e5ea;
 }
 
 .contact__link_phone-number {
@@ -47,7 +47,8 @@
 
 @media (max-width: 500px) {
   .contact {
-    gap: 22px; }
+    gap: 22px;
+  }
 }
 
 @media (min-width: 980px) {

@@ -17,9 +17,9 @@ function Navbar() {
       <Link to="/" className="navbar__link">
         Кейсы
       </Link>
-        <Link to="/" className="navbar__link navbar__link_tablet">
-          Сертификаты
-        </Link>
+      <Link to="/" className="navbar__link navbar__link_tablet">
+        Сертификаты
+      </Link>
     </nav>
   );
 }
