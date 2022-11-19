@@ -1,0 +1,20 @@
+.text_mobile {
+  display: inline-flex;
+  margin: 0;
+
+}
+
+.text_desktop {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .text_mobile {
+  display: none;
+  }
+  .text_desktop {
+    display: inline-block;
+    justify-content: flex-start;
+    margin: 0;
+  }
+}
