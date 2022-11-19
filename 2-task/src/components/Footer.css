@@ -83,6 +83,10 @@
     width: max-content;
   }
 
+  .footer__link_type_menu:first-child {
+    margin-right: 42px;
+  }
+
   .footer__link_type_menu:nth-child(6) {
     order: 2;
   }
@@ -103,12 +107,18 @@
     order: 5;
   }
 
+  .footer__col:nth-child(2) {
+    position: absolute;
+    left: 293px;
+  }
+
   .footer__col:last-child {
     align-items: end;
   }
 
   .footer__copyrigth {
     align-items: end;
+    margin-top: 70px;
   }
 }
 
