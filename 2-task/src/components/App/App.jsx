@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import useWindowSize from "../hooks/useWindowSize";
-import Cover from "./Cover";
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
+import useWindowSize from "../../hooks/useWindowSize";
+import Cover from "../Cover/Cover";
+import Header from "../Header/Header";
+import Main from "../Main/Main";
+import Footer from "../Footer/Footer";
 import "./App.css";
 
 function App() {

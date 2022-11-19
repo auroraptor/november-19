@@ -1,5 +1,5 @@
 import React from "react";
-import MainList from "./MainList";
+import MainList from "../MainList/MainList";
 import "./Main.css";
 
 function Main(props) {
@@ -45,7 +45,6 @@ function Main(props) {
         </div>
 
         <div className="cover_mobile">
-
           <div className="cover_mobile_purple-light"></div>
 
           <div className="cover_mobile_red-light"></div>
@@ -53,7 +52,6 @@ function Main(props) {
           <div className="cover_mobile_purple-ball"></div>
           <div className="cover_mobile_red-ball"></div>
           <div className="cover_glass"></div>
-
         </div>
       </main>
     </>

@@ -1,8 +1,8 @@
 import React from "react";
-import AboutUs from "./AboutUs";
-import Menu from "./Menu";
-import FooterContact from "./FooterContact";
-import Copyright from "./Copyright";
+import AboutUs from "../AboutUs/AboutUs";
+import Menu from "../Menu/Menu";
+import FooterContact from "../FooterContact/FooterContact";
+import Copyright from "../Copyright/Copyright";
 import "./Footer.css";
 
 function Footer(props) {

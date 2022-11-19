@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Logo from "./Logo";
+import Navbar from "../Navbar/Navbar";
+import Logo from "../Logo/Logo";
 import "./Header.css";
-import HeaderContact from "./HeaderContact";
+import HeaderContact from "../HeaderContact/HeaderContact";
 
 function Header(props) {
   return (

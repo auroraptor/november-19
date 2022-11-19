@@ -1,6 +1,6 @@
 import React from "react";
-import "../index.css";
-import "./Footer.css";
+import "../../index.css";
+import "../Footer/Footer.css";
 
 function FooterContact(props) {
   const { handleClick } = props;

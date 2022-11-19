@@ -5,13 +5,13 @@
 }
 
 .logo__link {
-  background-image: url('../images/logo_welbex.svg');
+  background-image: url("../../images/logo_welbex.svg");
   width: 140px;
   height: 24px;
 }
 
 .logo__description {
-  font-family: 'Monserrat', sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-style: light;
   font-size: 10px;
   line-height: 12px;

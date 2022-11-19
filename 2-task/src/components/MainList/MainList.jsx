@@ -1,6 +1,6 @@
 import React from "react";
-import { MOBILE_MAX_WIDTH } from "../utils/device-width";
-import "./Main.css";
+import { MOBILE_MAX_WIDTH } from "../../utils/device-width";
+import "../Main/Main.css";
 
 function MainList(props) {
   const { windowWidth } = props;
@@ -28,9 +28,7 @@ function MainList(props) {
       <li className="main__list_container">
         <span className="main_theme_gragient main__list_visible">&mdash;</span>
         {windowWidth < MOBILE_MAX_WIDTH ? "Месяц аmoCRM" : "35 дней"}
-        <span className="main__list_description">
-        использования CRM
-        </span>
+        <span className="main__list_description">использования CRM</span>
       </li>
     </ul>
   );
