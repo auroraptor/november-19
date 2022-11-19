@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import useWindowSize from "../../hooks/useWindowSize";
 import Cover from "../Cover/Cover";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
@@ -9,7 +8,6 @@ import "./App.css";
 
 function App() {
   const handleClick = () => alert("not really button");
-  const { width: windowWidth } = useWindowSize();
   return (
     <Routes>
       <Route
@@ -17,12 +15,9 @@ function App() {
         element={
           <div className="app">
             <Cover />
-            <Header handleClick={handleClick}></Header>
-            <Main handleClick={handleClick} windowWidth={windowWidth}></Main>
-            <Footer
-              handleClick={handleClick}
-              windowWidth={windowWidth}
-            ></Footer>
+            <Header handleClick={handleClick} />
+            <Main handleClick={handleClick} />
+            <Footer handleClick={handleClick} />
           </div>
         }
       ></Route>

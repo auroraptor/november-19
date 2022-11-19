@@ -6,14 +6,14 @@ import Copyright from "../Copyright/Copyright";
 import "./Footer.css";
 
 function Footer(props) {
-  const { windowWidth, handleClick } = props;
+  const { handleClick } = props;
 
   return (
     <footer className="footer">
       <div className="footer__navbar">
         <AboutUs />
         <Menu />
-        <FooterContact windowWidth={windowWidth} handleClick={handleClick} />
+        <FooterContact handleClick={handleClick} />
       </div>
       <Copyright />
     </footer>
