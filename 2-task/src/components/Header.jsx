@@ -2,7 +2,7 @@ import React from "react";
 import { MOBILE_MAX_WIDTH, DESKTOP_MIN_WIDTH } from "../utils/device-width";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
-import './Header.css'
+import '../blocks/Header.css'
 import HeaderContact from "./HeaderContact";
 
 function Header(props) {
@@ -11,7 +11,7 @@ function Header(props) {
   return (
     <header className="header">
       { windowWidth > MOBILE_MAX_WIDTH && <Logo/> }
-      <Navbar />
+      <Navbar windowWidth={windowWidth} />
       { windowWidth > DESKTOP_MIN_WIDTH && <HeaderContact handleClick={handleClick}/>}
     </header>
   );

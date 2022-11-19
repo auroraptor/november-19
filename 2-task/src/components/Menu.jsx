@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "../blocks/Footer.css";
 
 function Menu() {
   return (
-    <div className="footer__col">
+    <div className="footer__column">
       <p className="footer__title">Меню</p>
       <ul className="footer__container footer__container_type_menu">
         <li className="footer__link_type_menu">

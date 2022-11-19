@@ -18,6 +18,10 @@
   line-height: 19px;
 }
 
+.contact__link_phone-number:hover {
+  text-decoration: underline;
+}
+
 .contact__social-media {
   display: flex;
   flex-direction: row;
@@ -34,6 +38,7 @@
 
 .contact_footer {
   flex-direction: column;
+  margin-left: 15px;
 }
 
 @media (min-width: 980px) {

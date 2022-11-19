@@ -1,6 +1,6 @@
 import React from "react";
 import MainList from "./MainList";
-import "./Main.css";
+import "../blocks/Main.css";
 import { MOBILE_MAX_WIDTH } from "../utils/device-width";
 
 function Main(props) {
@@ -33,7 +33,7 @@ function Main(props) {
             мы дарим:
           </h2>
           <MainList windowWidth={windowWidth}/>
-          { windowWidth > MOBILE_MAX_WIDTH && <button type="button" className="button_place_main button_size_xl" onClick={handleClick} textContent="Получить консультацию">Получить консультацию</button>}
+          { windowWidth > MOBILE_MAX_WIDTH && <button type="button" className="button_place_main button_size_xl" onClick={handleClick} aria-label="Получить консультацию">Получить консультацию</button>}
         </div>
         <div className="cover">
           <div className="cover__circle_color_purple-light"></div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { MOBILE_MAX_WIDTH } from "../utils/device-width";
-import "./Main.css";
+import "../blocks/Main.css";
 
 function MainList(props) {
   const { windowWidth } = props;

@@ -82,6 +82,19 @@ button:hover {
   height: 61px;
 }
 
+.button_address {
+  background-color: transparent;
+  border: none;
+  width: max-content;
+
+}
+
+.button_address:hover {
+  text-decoration: underline;
+  opacity: 1;
+  transform: none;
+}
+
 @media (max-width: 1140px){
   .button_whatsapp_desktop  {
     margin-right: 16px;

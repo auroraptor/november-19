@@ -7,12 +7,13 @@
 
 .footer__navbar {
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.footer__col {
+.footer__column {
   display: flex;
   flex-direction: column;
   min-width: 271px;
@@ -107,12 +108,12 @@
     order: 5;
   }
 
-  .footer__col:nth-child(2) {
+  .footer__column:nth-child(2) {
     position: absolute;
     left: 293px;
   }
 
-  .footer__col:last-child {
+  .footer__column:last-child {
     align-items: end;
   }
 
@@ -126,7 +127,7 @@
   .footer__copyrigth  {
     margin-right: 16px;
   }
-  .footer__col:last-child {
+  .footer__column:last-child {
     margin-right: 16px;
   }
 }
