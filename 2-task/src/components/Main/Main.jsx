@@ -3,7 +3,7 @@ import MainList from "../MainList/MainList";
 import "./Main.css";
 
 function Main(props) {
-  const { windowWidth, handleClick } = props;
+  const { handleClick } = props;
 
   return (
     <>
@@ -33,7 +33,7 @@ function Main(props) {
             </span>{" "}
             мы дарим:
           </h2>
-          <MainList windowWidth={windowWidth} />
+          <MainList />
           <button
             type="button"
             className="button_place_main button_size_xl"
