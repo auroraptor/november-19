@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 22px;
+}
+.contact__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #E4E5EA;
+}
+
+.contact__link_phone-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contact__social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 22px;
+}
+
+.contact__social-media_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 22px;
+}
+
+.contact_footer {
+  flex-direction: column;
+}
+
+@media (min-width: 980px) {
+  .contact {
+    align-items: end;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact_header {
+    gap: 48.67px;
+  }
+}

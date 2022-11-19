@@ -165,6 +165,10 @@
   .main__container:last-child {
     align-items: flex-end;
   }
+
+  .cover {
+    display: none;
+  }
 }
 @media (min-width: 1140px) {
   .main {

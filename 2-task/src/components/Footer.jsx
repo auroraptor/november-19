@@ -5,13 +5,14 @@ import FooterContact from "./FooterContact";
 import Copyright from "./Copyright";
 import './Footer.css';
 
-function Footer() {
+function Footer(props) {
+
   return (
     <footer className="footer">
       <div className="footer__navbar">
         <AboutUs />
         <Menu />
-        <FooterContact />
+        <FooterContact windowWidth={props.windowWidth} handleClick={props.handleClick}/>
       </div>
       <Copyright/>
     </footer>

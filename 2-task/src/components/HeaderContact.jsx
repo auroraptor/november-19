@@ -1,17 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../index.css"
 import "./HeaderContact.css";
-import './Footer.css';
 
-function HeaderContact() {
+function HeaderContact({ handleClick }) {
   return (
-    <div className="contact">
-          <Link to="tel:+75555555555" className="contact__link contact__link_type_tel">+7 555 555-55-55</Link>
-          <nav className="contact__navbar_social">
-            <Link to="/" className="contact__link contact__icon_type_telegram" />
-            <Link to="/" className="contact__link contact__icon_type_viber" />
-            <Link to="/" className="contact__link contact__icon_type_whatsapp" />
-          </nav>
+    <div className="contact contact_header">
+      <a
+        href="tel:+75555555555"
+        className="contact__link contact__link_phone-number"
+      >
+        +7 555 555-55-55
+      </a>
+      <div className="contact__social-media">
+        <button
+          type="button"
+          className="button_contact button_telegram button_telegram_desktop"
+          onClick={handleClick}
+        />
+        <button
+          type="button"
+          className="button_contact button_viber button_viber_desktop"
+          onClick={handleClick}
+        />
+        <button
+          type="button"
+          className="button_contact button_whatsapp button_whatsapp_desktop"
+          onClick={handleClick}
+        />
+      </div>
     </div>
   );
 }

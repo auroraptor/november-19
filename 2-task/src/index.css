@@ -1,11 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/inter.css);
 @import url(./vendor/fonts/monserrat.css);
+@import url(./blocks/page.css);
+@import url(./blocks/buttons.css);
+@import url(./blocks/contact.css);
 
-.page {
-  background-color: #0E1014;
-  color: #E4E5EA;
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
-  margin: 0;
-}
