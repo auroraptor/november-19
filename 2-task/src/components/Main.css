@@ -79,7 +79,7 @@
   overflow: hidden;
   z-index: 1;
   width: 100%;
-  height: 425px;
+  height: 100%;
   padding: 0;
   background-image: url("../images/noise.png");
 }
@@ -169,6 +169,35 @@
   filter: blur(196px);
 }
 
+.main__list_container {
+  font-family: 'Monserrat';
+  font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+}
+
+@media (max-width: 500px) {
+  .main__list {
+    column-gap: 0;
+    grid-template-columns: 125px 150px;
+  }
+  .main__list_container:nth-child(1) {
+    order: 1;
+  }
+
+  .main__list_container:nth-child(2) {
+    order: 4;
+  }
+
+  .main__list_container:nth-child(3) {
+    order: 3;
+  }
+
+  .main__list_container:nth-child(4) {
+    order: 6;
+  }
+}
+
 @media (min-width: 500px) {
   .main {
     justify-content: space-between;
@@ -227,7 +256,7 @@
     letter-spacing: 5%;
     text-align: end;
     row-gap: 30px;
-    column-gap: 31px;
+    /* column-gap: 31px; */
   }
 
   .main__list_container {

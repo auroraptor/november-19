@@ -3,9 +3,9 @@ button {
 }
 
 button:hover {
-  opacity: .9;
+  opacity: 0.9;
   transform: scale(1.02);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .button_contact {
@@ -67,9 +67,9 @@ button:hover {
 
 .button_place_main {
   display: none;
-  background-color: #4077F3;
+  background-color: #4077f3;
   border: none;
-  color:#E4E5EA;
+  color: #e4e5ea;
   font-style: Medium;
   font-size: 16px;
   line-height: 19px;
@@ -87,6 +87,10 @@ button:hover {
   background-color: transparent;
   border: none;
   width: max-content;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0;
 }
 
 .button_address:hover {
@@ -95,18 +99,34 @@ button:hover {
   transform: none;
 }
 
-@media (min-width: 500px)  {
+.button_telegram_footer {
+  margin-right: 13.98px;
+}
+
+.button_viber_footer {
+  margin-right: 14.4px;
+}
+
+@media (max-width: 500px) {
+  .button_address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 500px) {
   .button_place_main {
     display: block;
   }
 }
 
-@media (max-width: 1140px){
-  .button_whatsapp_desktop  {
+@media (max-width: 1140px) {
+  .button_whatsapp_desktop {
     margin-right: 16px;
   }
 
-  .button_place_main  {
+  .button_place_main {
     margin-right: 16px;
   }
 }

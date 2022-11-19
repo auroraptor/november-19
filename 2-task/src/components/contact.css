@@ -45,6 +45,11 @@
   margin-left: 15px;
 }
 
+@media (max-width: 500px) {
+  .contact {
+    gap: 22px; }
+}
+
 @media (min-width: 980px) {
   .contact {
     align-items: end;

@@ -1,12 +1,9 @@
 import React from "react";
-import ButtonSocial from "./ButtonSocial";
 import "../index.css";
-import { MOBILE_MAX_WIDTH } from "../utils/device-width";
 import "./Footer.css";
 
 function FooterContact(props) {
-  const { windowWidth, handleClick } = props;
-  const handleDevice = windowWidth < MOBILE_MAX_WIDTH ? "mobile" : "desktop";
+  const { handleClick } = props;
 
   return (
     <div className="footer__column">
@@ -19,20 +16,24 @@ function FooterContact(props) {
           +7 555 555-55-55
         </a>
         <div className="contact__social-media">
-          <ButtonSocial
-            device={handleDevice}
-            socialMedia={"telegram"}
-            handleClick={handleClick}
+          <button
+            type="button"
+            aria-label={`Связаться с нами в Telegram`}
+            className="button_contact button_telegram button_telegram_desktop button_telegram_mobile button_telegram_footer"
+            onClick={handleClick}
           />
-          <ButtonSocial
-            device={handleDevice}
-            socialMedia={"viber"}
-            handleClick={handleClick}
+
+          <button
+            type="button"
+            aria-label={`Связаться с нами в Viber`}
+            className="button_contact button_viber button_viber_desktop button_viber_mobile button_viber_footer"
+            onClick={handleClick}
           />
-          <ButtonSocial
-            device={handleDevice}
-            socialMedia={"whatsapp"}
-            handleClick={handleClick}
+          <button
+            type="button"
+            aria-label={`Связаться с нами в Whatsapp`}
+            className="button_contact button_whatsapp button_whatsapp_desktop button_whatsapp_mobile button_whatsapp_footer"
+            onClick={handleClick}
           />
         </div>
         <button

@@ -37,6 +37,7 @@
     );
     box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
     backdrop-filter: blur(2px);
+    filter: drop-shadow(rgba(223, 125, 125, 0.25));
   }
 
   .cover__desktop_purple-ball {

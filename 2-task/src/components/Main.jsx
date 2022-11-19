@@ -43,14 +43,16 @@ function Main(props) {
             Получить консультацию
           </button>
         </div>
+
         <div className="cover_mobile">
+
           <div className="cover_mobile_purple-light"></div>
 
           <div className="cover_mobile_red-light"></div>
           <div className="cover_mobile_yellow-light"></div>
           <div className="cover_mobile_purple-ball"></div>
           <div className="cover_mobile_red-ball"></div>
-          <div className="cover__glass"></div>
+          <div className="cover_glass"></div>
 
         </div>
       </main>
