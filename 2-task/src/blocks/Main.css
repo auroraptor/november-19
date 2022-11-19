@@ -91,6 +91,10 @@
   filter: blur(15px);
 }
 
+.cover_desktop {
+  display: none;
+}
+
 .cover__circle_color_purple-light {
   position: absolute;
   left: 258px;
@@ -103,7 +107,7 @@
   filter: blur(392px);
 }
 
-.cover__circle_color_purple {
+.cover__circle_color_purple-ball {
   position: absolute;
   left: 296px;
   top: 236px;
@@ -170,6 +174,10 @@
 
   .cover {
     display: none;
+  }
+
+  .cover_desktop {
+    display: flex;
   }
 }
 

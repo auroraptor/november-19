@@ -39,8 +39,11 @@ function Main(props) {
           <div className="cover__circle_color_purple-light"></div>
           <div className="cover__circle_color_red-light"></div>
           <div className="cover__circle_color_yellow-light"></div>
-          <div className="cover__circle_color_purple"></div>
+          <div className="cover__circle_color_purple-ball"></div>
           <div className="cover__circle_color_red"></div>
+        </div>
+        <div className="cover_desktop">
+          {/* TODO */}
         </div>
       </main>
     </>
