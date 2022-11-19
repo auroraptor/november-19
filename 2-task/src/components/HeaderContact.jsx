@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonSocial from "./ButtonSocial";
-import "../index.css"
+import "../index.css";
 import "../blocks/HeaderContact.css";
 
 function HeaderContact({ handleClick }) {
@@ -13,9 +13,21 @@ function HeaderContact({ handleClick }) {
         +7 555 555-55-55
       </a>
       <div className="contact__social-media">
-        <ButtonSocial device={'desktop'} socialMedia={'telegram'} handleClick={handleClick} />
-        <ButtonSocial device={'desktop'} socialMedia={'viber'} handleClick={handleClick} />
-        <ButtonSocial device={'desktop'} socialMedia={'whatsapp'} handleClick={handleClick} />
+        <ButtonSocial
+          device={"desktop"}
+          socialMedia={"telegram"}
+          handleClick={handleClick}
+        />
+        <ButtonSocial
+          device={"desktop"}
+          socialMedia={"viber"}
+          handleClick={handleClick}
+        />
+        <ButtonSocial
+          device={"desktop"}
+          socialMedia={"whatsapp"}
+          handleClick={handleClick}
+        />
       </div>
     </div>
   );

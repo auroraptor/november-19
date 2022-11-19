@@ -6,7 +6,7 @@ import "../blocks/Footer.css";
 
 function FooterContact(props) {
   const { windowWidth, handleClick } = props;
-  const handleDevice = windowWidth < MOBILE_MAX_WIDTH ? 'mobile' : 'desktop';
+  const handleDevice = windowWidth < MOBILE_MAX_WIDTH ? "mobile" : "desktop";
 
   return (
     <div className="footer__column">
@@ -19,11 +19,30 @@ function FooterContact(props) {
           +7 555 555-55-55
         </a>
         <div className="contact__social-media">
-        <ButtonSocial device={handleDevice} socialMedia={'telegram'} handleClick={handleClick} />
-        <ButtonSocial device={handleDevice} socialMedia={'viber'} handleClick={handleClick} />
-        <ButtonSocial device={handleDevice} socialMedia={'whatsapp'} handleClick={handleClick} />
+          <ButtonSocial
+            device={handleDevice}
+            socialMedia={"telegram"}
+            handleClick={handleClick}
+          />
+          <ButtonSocial
+            device={handleDevice}
+            socialMedia={"viber"}
+            handleClick={handleClick}
+          />
+          <ButtonSocial
+            device={handleDevice}
+            socialMedia={"whatsapp"}
+            handleClick={handleClick}
+          />
         </div>
-        <button type="button" aria-label="Показать на карте" className="button_address contact__link" onClick={handleClick}>Москва, Путевой проезд 3с1, к 902</button>
+        <button
+          type="button"
+          aria-label="Показать на карте"
+          className="button_address contact__link"
+          onClick={handleClick}
+        >
+          Москва, Путевой проезд 3с1, к 902
+        </button>
       </div>
     </div>
   );

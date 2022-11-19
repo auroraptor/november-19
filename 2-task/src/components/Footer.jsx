@@ -3,19 +3,19 @@ import AboutUs from "./AboutUs";
 import Menu from "./Menu";
 import FooterContact from "./FooterContact";
 import Copyright from "./Copyright";
-import '../blocks/Footer.css';
+import "../blocks/Footer.css";
 
 function Footer(props) {
-  const {windowWidth, handleClick} = props;
+  const { windowWidth, handleClick } = props;
 
   return (
     <footer className="footer">
       <div className="footer__navbar">
         <AboutUs />
         <Menu />
-        <FooterContact windowWidth={windowWidth} handleClick={handleClick}/>
+        <FooterContact windowWidth={windowWidth} handleClick={handleClick} />
       </div>
-      <Copyright/>
+      <Copyright />
     </footer>
   );
 }

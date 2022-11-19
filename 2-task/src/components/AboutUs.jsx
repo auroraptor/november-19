@@ -8,10 +8,14 @@ function AboutUs() {
       <p className="footer__title">О компании</p>
       <ul className="footer__container">
         <li>
-          <Link to="/" className="footer__link">Партнёрская программа</Link>
+          <Link to="/" className="footer__link">
+            Партнёрская программа
+          </Link>
         </li>
         <li>
-          <Link to="/" className="footer__link">Вакансии</Link>
+          <Link to="/" className="footer__link">
+            Вакансии
+          </Link>
         </li>
       </ul>
     </div>

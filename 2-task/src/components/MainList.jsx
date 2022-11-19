@@ -9,23 +9,28 @@ function MainList(props) {
       <li className="main__list_container">
         <span className="main_theme_gragient main__list_visible">&mdash;</span>
         Skype аудит
-        <span className="main__list_description">отдела продаж и CRM системы</span>
+        <span className="main__list_description">
+          отдела продаж и CRM системы
+        </span>
       </li>
       <li className="main__list_container">
         <span className="main_theme_gragient main__list_visible">&mdash;</span>
         Dashboard
-        <span className="main__list_description">с показателями
-вашего бизнеса</span>
+        <span className="main__list_description">
+          с показателями вашего бизнеса
+        </span>
       </li>
       <li className="main__list_container">
         <span className="main_theme_gragient main__list_visible">&mdash;</span>
-        { windowWidth < MOBILE_MAX_WIDTH ? '30 виджетов' : 'Виджеты'}
+        {windowWidth < MOBILE_MAX_WIDTH ? "30 виджетов" : "Виджеты"}
         <span className="main__list_description">30 готовых решений</span>
       </li>
       <li className="main__list_container">
         <span className="main_theme_gragient main__list_visible">&mdash;</span>
-        { windowWidth < MOBILE_MAX_WIDTH ? 'Месяц аmoCRM' : '35 дней'}
-        <span className="main__list_description">отдела продаж и CRM системы</span>
+        {windowWidth < MOBILE_MAX_WIDTH ? "Месяц аmoCRM" : "35 дней"}
+        <span className="main__list_description">
+          отдела продаж и CRM системы
+        </span>
       </li>
     </ul>
   );

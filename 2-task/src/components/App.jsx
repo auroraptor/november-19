@@ -7,17 +7,23 @@ import Footer from "./Footer";
 import "../blocks/App.css";
 
 function App() {
-  const handleClick = () => alert('not really button');
-  const { width: windowWidth }= useWindowSize();
+  const handleClick = () => alert("not really button");
+  const { width: windowWidth } = useWindowSize();
   return (
     <Routes>
       <Route
         path="/"
         element={
           <div className="app">
-            <Header handleClick={handleClick} windowWidth={windowWidth}></Header>
+            <Header
+              handleClick={handleClick}
+              windowWidth={windowWidth}
+            ></Header>
             <Main handleClick={handleClick} windowWidth={windowWidth}></Main>
-            <Footer handleClick={handleClick} windowWidth={windowWidth}></Footer>
+            <Footer
+              handleClick={handleClick}
+              windowWidth={windowWidth}
+            ></Footer>
           </div>
         }
       ></Route>

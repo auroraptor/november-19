@@ -8,34 +8,54 @@ function Menu() {
       <p className="footer__title">Меню</p>
       <ul className="footer__container footer__container_type_menu">
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Расчёт стоимости</Link>
+          <Link to="/" className="footer__link">
+            Расчёт стоимости
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Услуги</Link>
+          <Link to="/" className="footer__link">
+            Услуги
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Виджеты</Link>
+          <Link to="/" className="footer__link">
+            Виджеты
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Интеграции</Link>
+          <Link to="/" className="footer__link">
+            Интеграции
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Наши клиенты</Link>
+          <Link to="/" className="footer__link">
+            Наши клиенты
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Благодарность клиентов</Link>
+          <Link to="/" className="footer__link">
+            Благодарность клиентов
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Кейсы</Link>
+          <Link to="/" className="footer__link">
+            Кейсы
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Сертификаты</Link>
+          <Link to="/" className="footer__link">
+            Сертификаты
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Блог на Youtube</Link>
+          <Link to="/" className="footer__link">
+            Блог на Youtube
+          </Link>
         </li>
         <li className="footer__link_type_menu">
-          <Link to="/" className="footer__link">Вопрос / Ответ</Link>
+          <Link to="/" className="footer__link">
+            Вопрос / Ответ
+          </Link>
         </li>
       </ul>
     </div>
