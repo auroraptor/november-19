@@ -41,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "Pixel Perfect",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auroraptor/november-19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auroraptor/november-19/issues"
   }
 }
