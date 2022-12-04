@@ -1,7 +1,7 @@
 {
   "name": "2-task",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "https://github.com/auroraptor/november-19/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
