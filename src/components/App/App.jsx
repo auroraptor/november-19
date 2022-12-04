@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/november-19"
         element={
           <div className="app">
             <Cover />
